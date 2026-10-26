@@ -1,0 +1,2 @@
+import{a as e,i as t,n,r,t as i}from"./shared-lib.CpPnlBV2.mjs";t();export{n as __FramerMetadata__,i as default,r as enumToDisplayNameFunctions,e as utils};
+e.getRecordIdBySlug=async slug=>({"karbon-forex": "Xq_ysUgmV", "swift-code-finder": "jZCDAeQ20", "karbon-design-system": "Eo5Q2uOOP", "karbon-business": "Y4pDsy9KN"})[slug];e.getSlugByRecordId=async id=>({"Xq_ysUgmV": "karbon-forex", "jZCDAeQ20": "swift-code-finder", "Eo5Q2uOOP": "karbon-design-system", "Y4pDsy9KN": "karbon-business"})[id];

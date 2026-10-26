@@ -1,0 +1,24 @@
+{
+  "origin": "https://visualfolio.framer.website",
+  "pages": [
+    "/",
+    "/projects",
+    "/contact",
+    "/404",
+    "/projects/karbon-forex",
+    "/projects/swift-code-finder",
+    "/projects/karbon-design-system",
+    "/projects/karbon-business"
+  ],
+  "assets": 112,
+  "failed": {
+    "https://framerusercontent.com/images/pGiXYozQ3mE4cilNOItfe2L2fUA.svg": "HTTP Error 404: Not Found"
+  },
+  "localAdaptations": [
+    "Local CMS byte extraction for static hosting",
+    "Ajaymon profile, CV, images and case studies",
+    "Local SVG fallback for missing upstream loading spinner",
+    "Contact form opens an email draft",
+    "Analytics and editor bootstrap disabled"
+  ]
+}

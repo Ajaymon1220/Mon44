@@ -1,0 +1,39 @@
+/* Personal branding layered onto the original responsive layout and motion. */
+[data-framer-name="Headshot"] { width: 44% !important; height: 72% !important; left: auto !important; right: 7% !important; top: 15% !important; bottom: auto !important; border-radius: 28px !important; overflow: hidden !important; transform: rotate(3deg) !important; box-shadow: 0 18px 55px #0002; }
+[data-framer-name="Headshot"] img { object-fit: cover !important; object-position: center !important; }
+[data-framer-name="Hero Card"] { background-color: #252a40 !important; }
+[data-framer-name="Hero Marquee Track"] { opacity: .85; }
+[data-framer-name="Corner BL"] { z-index: 4; max-width: 42% !important; }
+[data-framer-name="Hero Rule"] { z-index: 3; }
+[data-framer-name="Showreel Body"] { padding: 24px !important; height: auto !important; }
+[data-framer-name="Showreel Body"] > :not(.ajay-ai-banner) { display: none !important; }
+.ajay-ai-banner { display: block; width: 100%; height: auto; border-radius: 16px; }
+.ajay-experience { width: 100%; padding: 48px 24px; border-bottom: 1px solid #e8e8e8; color: #202020; font-family: 'Inter Tight', sans-serif; box-sizing: border-box; }
+.ajay-section-head { display: flex; align-items: center; justify-content: space-between; gap: 24px; margin-bottom: 32px; }
+.ajay-section-head h2 { font-size: 32px; font-weight: 500; letter-spacing: -1px; margin: 0; }
+.ajay-section-head a { color: inherit; text-decoration: none; font-size: 15px; border-bottom: 1px solid #999; padding-bottom: 3px; }
+.ajay-timeline { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 20px; }
+.ajay-job { padding: 26px; border: 1px solid #e4e1ed; border-radius: 16px; background: #faf9fc; }
+.ajay-job time { color: #777; font-size: 13px; }
+.ajay-job h3 { font-size: 23px; margin: 24px 0 6px; font-weight: 500; letter-spacing: -.5px; }
+.ajay-job .role { font-size: 15px; color: #6657aa; margin: 0 0 18px; }
+.ajay-job p { font-size: 15px; line-height: 1.65; color: #777; margin: 0; }
+.ajay-toolkit { display: flex; flex-wrap: wrap; gap: 10px; padding: 28px 0 20px; }
+.ajay-toolkit span { border: 1px solid #e4e1ed; border-radius: 30px; padding: 8px 14px; font-size: 13px; }
+.ajay-education { color: #777; font-size: 14px; line-height: 1.7; margin: 0; }
+.ajay-form-help { color: #777; font-size: 13px; line-height: 1.5; width: 100%; margin: 10px 0 0; font-family: 'Inter Tight',sans-serif; }
+.ajay-contact-email { display: block; margin-top: 18px; color: #6657aa; font: 16px/1.5 'Inter Tight',sans-serif; }
+[data-framer-name="Testimonial Card"] [data-framer-name="Quote"] { max-width: 100%; }
+@media(max-width:809px) {
+ [data-framer-name="Headshot"] { width: 74% !important; height: 55% !important; right: 13% !important; top: 21% !important; border-radius: 20px !important; }
+ [data-framer-name="Corner BL"] { max-width: 100% !important; width: calc(100% - 32px) !important; }
+ .ajay-experience { padding: 36px 16px; }
+ .ajay-section-head { align-items: flex-start; gap: 16px; }
+ .ajay-section-head h2 { font-size: 26px; }
+ .ajay-section-head a { font-size: 13px; white-space: nowrap; }
+ .ajay-timeline { grid-template-columns: 1fr; gap: 12px; }
+ .ajay-job { padding: 22px; }
+ [data-framer-name="Showreel Body"] { padding: 12px !important; }
+ .ajay-ai-banner { border-radius: 10px; }
+}
+@media(prefers-reduced-motion:reduce) { .ajay-job { transition: none; } }

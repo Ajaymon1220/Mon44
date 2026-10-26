@@ -1,0 +1,346 @@
+[
+  {
+    "pointer": "0/4/4508",
+    "data": {
+      "id": {
+        "type": "string",
+        "value": "Xq_ysUgmV"
+      },
+      "createdAt": {
+        "type": "date",
+        "value": "2026-10-06T07:38:50.276Z"
+      },
+      "updatedAt": {
+        "type": "date",
+        "value": "2026-10-11T05:58:00.802Z"
+      },
+      "nextItemId": {
+        "type": "string",
+        "value": "jZCDAeQ20"
+      },
+      "B_ZiumyUX": {
+        "type": "string",
+        "value": "Voxera AI"
+      },
+      "yTZUyf0Wl": {
+        "type": "string",
+        "value": "Landing page design and Framer build for a voice-AI SaaS platform"
+      },
+      "ban_8MH1u": {
+        "type": "string",
+        "value": "SaaS · AI · Framer"
+      },
+      "BwFJwfjzq": {
+        "type": "string",
+        "value": "2026"
+      },
+      "Cm8FKdxFe": {
+        "type": "string",
+        "value": "Voxera AI"
+      },
+      "zXdzzUen0": {
+        "type": "string",
+        "value": "UI/UX design, Framer development"
+      },
+      "nRrO4aIen": {
+        "type": "responsiveimage",
+        "value": {
+          "src": "/reference/assets/framerusercontent.com/images/Uic9jMqHzVPcnLJDYkkNs3i74.jpeg?width=1600&height=1208",
+          "srcSet": "/reference/assets/framerusercontent.com/images/Uic9jMqHzVPcnLJDYkkNs3i74.jpeg?scale-down-to=512&width=1600&height=1208 512w,/reference/assets/framerusercontent.com/images/Uic9jMqHzVPcnLJDYkkNs3i74.jpeg?scale-down-to=1024&width=1600&height=1208 1024w,/reference/assets/framerusercontent.com/images/Uic9jMqHzVPcnLJDYkkNs3i74.jpeg?width=1600&height=1208 1600w",
+          "pixelWidth": 1600,
+          "pixelHeight": 1208
+        }
+      },
+      "HeiafU8cr": {
+        "type": "responsiveimage",
+        "value": {
+          "src": "/reference/assets/framerusercontent.com/images/1nUTnZFNotdj1klXSfFwAEdiz7M.jpg?width=2400&height=1800",
+          "srcSet": "/reference/assets/framerusercontent.com/images/1nUTnZFNotdj1klXSfFwAEdiz7M.jpg?scale-down-to=512&width=2400&height=1800 512w,/reference/assets/framerusercontent.com/images/1nUTnZFNotdj1klXSfFwAEdiz7M.jpg?scale-down-to=1024&width=2400&height=1800 1024w,/reference/assets/framerusercontent.com/images/1nUTnZFNotdj1klXSfFwAEdiz7M.jpg?scale-down-to=2048&width=2400&height=1800 2048w,/reference/assets/framerusercontent.com/images/1nUTnZFNotdj1klXSfFwAEdiz7M.jpg?width=2400&height=1800 2400w",
+          "pixelWidth": 2400,
+          "pixelHeight": 1800
+        }
+      },
+      "V7_W36oeM": {
+        "type": "responsiveimage",
+        "value": {
+          "src": "/reference/assets/framerusercontent.com/images/LrSuGZ42GYngS16v3lJZP8BGWQ.jpg?width=2400&height=1800",
+          "srcSet": "/reference/assets/framerusercontent.com/images/LrSuGZ42GYngS16v3lJZP8BGWQ.jpg?scale-down-to=512&width=2400&height=1800 512w,/reference/assets/framerusercontent.com/images/LrSuGZ42GYngS16v3lJZP8BGWQ.jpg?scale-down-to=1024&width=2400&height=1800 1024w,/reference/assets/framerusercontent.com/images/LrSuGZ42GYngS16v3lJZP8BGWQ.jpg?scale-down-to=2048&width=2400&height=1800 2048w,/reference/assets/framerusercontent.com/images/LrSuGZ42GYngS16v3lJZP8BGWQ.jpg?width=2400&height=1800 2400w",
+          "pixelWidth": 2400,
+          "pixelHeight": 1800
+        }
+      },
+      "giP_V1vHZ": {
+        "type": "string",
+        "value": "voxera-ai"
+      },
+      "vQLsIZ4PH": {
+        "type": "number",
+        "value": 1
+      },
+      "Ovls3s13b": {
+        "type": "richtext",
+        "value": "[1,[4,\"h2\",{\"dir\":\"auto\"},[5,\"Overview\"]],[4,\"p\",{\"dir\":\"auto\"},[5,\"Voxera AI is a voice-AI platform that automates conversations and improves customer interactions. The job was to design a website that lets visitors quickly understand what Voxera does, who it is for, and why they should care, then build it in Framer.\"]],[4,\"h2\",{\"dir\":\"auto\"},[5,\"The challenge\"]],[4,\"p\",{\"dir\":\"auto\"},[5,\"AI products are hard to explain on a website. Visitors need to grasp what the product does, who it serves, how it is used, which problems it solves and why they should take the next step, without being buried in capabilities.\"]],[4,\"h2\",{\"dir\":\"auto\"},[5,\"The approach\"]],[4,\"ul\",{\"dir\":\"auto\"},[4,\"li\",{\"data-preset-tag\":\"p\"},[4,\"p\",{\"dir\":\"auto\"},[4,\"strong\",null,[5,\"Clear positioning.\"]],[5,\" The hero answers three questions in order: what Voxera does, who it is for, why it matters.\"]]],[4,\"li\",{\"data-preset-tag\":\"p\"},[4,\"p\",{\"dir\":\"auto\"},[4,\"strong\",null,[5,\"Use cases over feature lists.\"]],[5,\" Sections map voice AI to sales calls, customer support, automated workflows and business communication.\"]]],[4,\"li\",{\"data-preset-tag\":\"p\"},[4,\"p\",{\"dir\":\"auto\"},[4,\"strong\",null,[5,\"A structured story.\"]],[5,\" The page moves visitors from understanding to exploration, validation and action, with one job per section.\"]]],[4,\"li\",{\"data-preset-tag\":\"p\"},[4,\"p\",{\"dir\":\"auto\"},[4,\"strong\",null,[5,\"Conversion-focused UI.\"]],[5,\" Strong hierarchy, clear typography, generous whitespace, product UI visuals, consistent components and clear CTAs.\"]]]],[4,\"h2\",{\"dir\":\"auto\"},[5,\"Built in Framer\"]],[4,\"p\",{\"dir\":\"auto\"},[5,\"Responsive layouts, interactive sections, smooth transitions and a component-based build that keeps the visual hierarchy intact on every screen size.\"]],[4,\"h2\",{\"dir\":\"auto\"},[5,\"Outcome\"]],[4,\"p\",{\"dir\":\"auto\"},[5,\"A website that turns a complex AI product into something that feels easy to understand, credible and actionable.\"]],[4,\"p\",{\"dir\":\"auto\"},[2,{\"href\":\"https://voxeraai.framer.website/\",\"relValues\":[],\"motionChild\":true,\"nodeId\":\"ETIXwiUWW\",\"scopeId\":\"contentManagement\"},[4,\"a\",null,[5,\"View live site\"]]],[5,\" · \"],[2,{\"href\":\"https://contra.com/p/FQZLAQbX-voxera-ai-saa-s-landing-page-design-and-framer-development\",\"relValues\":[],\"motionChild\":true,\"nodeId\":\"ETIXwiUWW\",\"scopeId\":\"contentManagement\"},[4,\"a\",null,[5,\"Case study on Contra\"]]]]]"
+      }
+    }
+  },
+  {
+    "pointer": "0/4512/4721",
+    "data": {
+      "id": {
+        "type": "string",
+        "value": "jZCDAeQ20"
+      },
+      "createdAt": {
+        "type": "date",
+        "value": "2026-10-06T07:38:51.920Z"
+      },
+      "updatedAt": {
+        "type": "date",
+        "value": "2026-10-11T05:58:09.629Z"
+      },
+      "previousItemId": {
+        "type": "string",
+        "value": "Xq_ysUgmV"
+      },
+      "nextItemId": {
+        "type": "string",
+        "value": "Eo5Q2uOOP"
+      },
+      "B_ZiumyUX": {
+        "type": "string",
+        "value": "Socialo"
+      },
+      "yTZUyf0Wl": {
+        "type": "string",
+        "value": "Website and Framer template for social media and UGC agencies"
+      },
+      "ban_8MH1u": {
+        "type": "string",
+        "value": "Agency · Template · Framer"
+      },
+      "BwFJwfjzq": {
+        "type": "string",
+        "value": "2026"
+      },
+      "Cm8FKdxFe": {
+        "type": "string",
+        "value": "Framer Marketplace"
+      },
+      "zXdzzUen0": {
+        "type": "string",
+        "value": "Product designer & Framer developer"
+      },
+      "nRrO4aIen": {
+        "type": "responsiveimage",
+        "value": {
+          "src": "/reference/assets/framerusercontent.com/images/S3ehH8TbaMtgFJwkqkdopPqark.jpeg?width=1600&height=1208",
+          "srcSet": "/reference/assets/framerusercontent.com/images/S3ehH8TbaMtgFJwkqkdopPqark.jpeg?scale-down-to=512&width=1600&height=1208 512w,/reference/assets/framerusercontent.com/images/S3ehH8TbaMtgFJwkqkdopPqark.jpeg?scale-down-to=1024&width=1600&height=1208 1024w,/reference/assets/framerusercontent.com/images/S3ehH8TbaMtgFJwkqkdopPqark.jpeg?width=1600&height=1208 1600w",
+          "pixelWidth": 1600,
+          "pixelHeight": 1208
+        }
+      },
+      "HeiafU8cr": {
+        "type": "responsiveimage",
+        "value": {
+          "src": "/reference/assets/framerusercontent.com/images/R90ViEXgToR9cvTNSFYZRBvk.jpg?width=3200&height=2400",
+          "srcSet": "/reference/assets/framerusercontent.com/images/R90ViEXgToR9cvTNSFYZRBvk.jpg?scale-down-to=512&width=3200&height=2400 512w,/reference/assets/framerusercontent.com/images/R90ViEXgToR9cvTNSFYZRBvk.jpg?scale-down-to=1024&width=3200&height=2400 1024w,/reference/assets/framerusercontent.com/images/R90ViEXgToR9cvTNSFYZRBvk.jpg?scale-down-to=2048&width=3200&height=2400 2048w,/reference/assets/framerusercontent.com/images/R90ViEXgToR9cvTNSFYZRBvk.jpg?width=3200&height=2400 3200w",
+          "pixelWidth": 3200,
+          "pixelHeight": 2400
+        }
+      },
+      "V7_W36oeM": {
+        "type": "responsiveimage",
+        "value": {
+          "src": "/reference/assets/framerusercontent.com/images/bLPG9KKYSyp8zyxODMANNxn54.jpg?width=3200&height=2400",
+          "srcSet": "/reference/assets/framerusercontent.com/images/bLPG9KKYSyp8zyxODMANNxn54.jpg?scale-down-to=512&width=3200&height=2400 512w,/reference/assets/framerusercontent.com/images/bLPG9KKYSyp8zyxODMANNxn54.jpg?scale-down-to=1024&width=3200&height=2400 1024w,/reference/assets/framerusercontent.com/images/bLPG9KKYSyp8zyxODMANNxn54.jpg?scale-down-to=2048&width=3200&height=2400 2048w,/reference/assets/framerusercontent.com/images/bLPG9KKYSyp8zyxODMANNxn54.jpg?width=3200&height=2400 3200w",
+          "pixelWidth": 3200,
+          "pixelHeight": 2400
+        }
+      },
+      "giP_V1vHZ": {
+        "type": "string",
+        "value": "socialo"
+      },
+      "vQLsIZ4PH": {
+        "type": "number",
+        "value": 2
+      },
+      "Ovls3s13b": {
+        "type": "richtext",
+        "value": "[1,[4,\"h2\",{\"dir\":\"auto\"},[5,\"Overview\"]],[4,\"p\",{\"dir\":\"auto\"},[5,\"Socialo is a Framer website template for social media agencies, creative studios and digital marketing teams that need a bold, modern, conversion-focused presence. The aim was an agency site that feels energetic without giving up clarity, usability or structure.\"]],[4,\"h2\",{\"dir\":\"auto\"},[5,\"The challenge\"]],[4,\"p\",{\"dir\":\"auto\"},[5,\"Most agency sites lean on predictable layouts and generic marketing visuals, so smaller teams struggle to stand out. Socialo had to communicate services quickly, show creative work well and guide visitors to an inquiry, balancing expressive UI with practical UX.\"]],[4,\"h2\",{\"dir\":\"auto\"},[5,\"The approach\"]],[4,\"ul\",{\"dir\":\"auto\"},[4,\"li\",{\"data-preset-tag\":\"p\"},[4,\"p\",null,[4,\"strong\",null,[5,\"Visual impact.\"]],[5,\" Bold typography, strong compositions and expressive layouts make an immediate first impression.\"]]],[4,\"li\",{\"data-preset-tag\":\"p\"},[4,\"p\",null,[4,\"strong\",null,[5,\"Clear communication.\"]],[5,\" Services, capabilities and work are broken into easy-to-scan sections with a firm hierarchy.\"]]],[4,\"li\",{\"data-preset-tag\":\"p\"},[4,\"p\",null,[4,\"strong\",null,[5,\"Conversion-focused UX.\"]],[5,\" Calls to action sit along a natural path from discovering the agency to exploring work and getting in touch.\"]]]],[4,\"h2\",{\"dir\":\"auto\"},[5,\"Custom illustrations\"]],[4,\"p\",{\"dir\":\"auto\"},[5,\"Frosted-glass illustrations with soft transparency and layered compositions give Socialo its own visual language and add depth to the bold UI.\"]],[4,\"h2\",{\"dir\":\"auto\"},[5,\"Outcome\"]],[4,\"p\",{\"dir\":\"auto\"},[5,\"A responsive Framer template (Home, About, Services, Case Studies, Contact and 404) that gives agencies a polished, easy-to-customise starting point, published free on the Framer Marketplace.\"]],[4,\"p\",{\"dir\":\"auto\"},[2,{\"href\":\"https://socialo.framer.website/\",\"openInNewTab\":false,\"smoothScroll\":false,\"relValues\":[],\"motionChild\":true,\"nodeId\":\"ETIXwiUWW\",\"scopeId\":\"contentManagement\"},[4,\"a\",null,[5,\"View live site\"]]],[5,\" · \"],[2,{\"href\":\"https://www.framer.com/marketplace/templates/socialo/\",\"openInNewTab\":false,\"smoothScroll\":false,\"relValues\":[],\"motionChild\":true,\"nodeId\":\"ETIXwiUWW\",\"scopeId\":\"contentManagement\"},[4,\"a\",null,[5,\"Framer Marketplace\"]]],[5,\" · \"],[2,{\"href\":\"https://contra.com/p/Z6l6XrkA-social-media-ugc-agency-website-design-and-framer-development\",\"openInNewTab\":false,\"smoothScroll\":false,\"relValues\":[],\"motionChild\":true,\"nodeId\":\"ETIXwiUWW\",\"scopeId\":\"contentManagement\"},[4,\"a\",null,[5,\"Case study on Contra\"]]]]]"
+      }
+    }
+  },
+  {
+    "pointer": "0/9233/4271",
+    "data": {
+      "id": {
+        "type": "string",
+        "value": "Eo5Q2uOOP"
+      },
+      "createdAt": {
+        "type": "date",
+        "value": "2026-10-06T07:38:53.552Z"
+      },
+      "updatedAt": {
+        "type": "date",
+        "value": "2026-10-11T05:58:19.135Z"
+      },
+      "previousItemId": {
+        "type": "string",
+        "value": "jZCDAeQ20"
+      },
+      "nextItemId": {
+        "type": "string",
+        "value": "Y4pDsy9KN"
+      },
+      "B_ZiumyUX": {
+        "type": "string",
+        "value": "ArconAI"
+      },
+      "yTZUyf0Wl": {
+        "type": "string",
+        "value": "Enterprise SaaS template for AI procurement and automation startups"
+      },
+      "ban_8MH1u": {
+        "type": "string",
+        "value": "SaaS · AI · Template"
+      },
+      "BwFJwfjzq": {
+        "type": "string",
+        "value": "2026"
+      },
+      "Cm8FKdxFe": {
+        "type": "string",
+        "value": "Framer Marketplace"
+      },
+      "zXdzzUen0": {
+        "type": "string",
+        "value": "Product design, Framer development"
+      },
+      "nRrO4aIen": {
+        "type": "responsiveimage",
+        "value": {
+          "src": "/reference/assets/framerusercontent.com/images/jtSzQfIfHlKYUoZJ873rCAY6yxQ.jpeg?width=1600&height=1208",
+          "srcSet": "/reference/assets/framerusercontent.com/images/jtSzQfIfHlKYUoZJ873rCAY6yxQ.jpeg?scale-down-to=512&width=1600&height=1208 512w,/reference/assets/framerusercontent.com/images/jtSzQfIfHlKYUoZJ873rCAY6yxQ.jpeg?scale-down-to=1024&width=1600&height=1208 1024w,/reference/assets/framerusercontent.com/images/jtSzQfIfHlKYUoZJ873rCAY6yxQ.jpeg?width=1600&height=1208 1600w",
+          "pixelWidth": 1600,
+          "pixelHeight": 1208
+        }
+      },
+      "HeiafU8cr": {
+        "type": "responsiveimage",
+        "value": {
+          "src": "/reference/assets/framerusercontent.com/images/MwD2w08YdzRAui3ZfGdFTwm5A.png?width=3200&height=2400",
+          "srcSet": "/reference/assets/framerusercontent.com/images/MwD2w08YdzRAui3ZfGdFTwm5A.png?scale-down-to=512&width=3200&height=2400 512w,/reference/assets/framerusercontent.com/images/MwD2w08YdzRAui3ZfGdFTwm5A.png?scale-down-to=1024&width=3200&height=2400 1024w,/reference/assets/framerusercontent.com/images/MwD2w08YdzRAui3ZfGdFTwm5A.png?scale-down-to=2048&width=3200&height=2400 2048w,/reference/assets/framerusercontent.com/images/MwD2w08YdzRAui3ZfGdFTwm5A.png?width=3200&height=2400 3200w",
+          "pixelWidth": 3200,
+          "pixelHeight": 2400
+        }
+      },
+      "V7_W36oeM": {
+        "type": "responsiveimage",
+        "value": {
+          "src": "/reference/assets/framerusercontent.com/images/UlOxupYEi4QndcYsPDX6UtNiHpM.png?width=3200&height=2400",
+          "srcSet": "/reference/assets/framerusercontent.com/images/UlOxupYEi4QndcYsPDX6UtNiHpM.png?scale-down-to=512&width=3200&height=2400 512w,/reference/assets/framerusercontent.com/images/UlOxupYEi4QndcYsPDX6UtNiHpM.png?scale-down-to=1024&width=3200&height=2400 1024w,/reference/assets/framerusercontent.com/images/UlOxupYEi4QndcYsPDX6UtNiHpM.png?scale-down-to=2048&width=3200&height=2400 2048w,/reference/assets/framerusercontent.com/images/UlOxupYEi4QndcYsPDX6UtNiHpM.png?width=3200&height=2400 3200w",
+          "pixelWidth": 3200,
+          "pixelHeight": 2400
+        }
+      },
+      "giP_V1vHZ": {
+        "type": "string",
+        "value": "arconai"
+      },
+      "vQLsIZ4PH": {
+        "type": "number",
+        "value": 3
+      },
+      "Ovls3s13b": {
+        "type": "richtext",
+        "value": "[1,[4,\"h2\",{\"dir\":\"auto\"},[5,\"Overview\"]],[4,\"p\",{\"dir\":\"auto\"},[5,\"ArconAI is a Framer template for AI startups, procurement platforms, AI agents, workflow automation and B2B software. It pairs a modern enterprise aesthetic with layouts that build trust, show the product and drive conversions.\"]],[4,\"h2\",{\"dir\":\"auto\"},[5,\"The challenge\"]],[4,\"p\",{\"dir\":\"auto\"},[5,\"Enterprise buyers evaluate AI products carefully. The site had to explain a complex product (an autonomous procurement engine) in clean layouts that a buying committee understands at a glance.\"]],[4,\"h2\",{\"dir\":\"auto\"},[5,\"The approach\"]],[4,\"ul\",{\"dir\":\"auto\"},[4,\"li\",{\"data-preset-tag\":\"p\"},[4,\"p\",null,[4,\"strong\",null,[5,\"Product-first hero.\"]],[5,\" A clear promise backed by a real dashboard UI, so the product is visible from the first screen.\"]]],[4,\"li\",{\"data-preset-tag\":\"p\"},[4,\"p\",null,[4,\"strong\",null,[5,\"Built to convert.\"]],[5,\" Feature showcases, use cases, testimonials, pricing, FAQs and repeated calls to action.\"]]],[4,\"li\",{\"data-preset-tag\":\"p\"},[4,\"p\",null,[4,\"strong\",null,[5,\"A scalable system.\"]],[5,\" Reusable components, a CMS-powered blog and consistent navigation and footer across every page.\"]]]],[4,\"h2\",{\"dir\":\"auto\"},[5,\"What's included\"]],[4,\"p\",{\"dir\":\"auto\"},[5,\"Homepage, Features, CMS blog and blog details, Pricing, Contact, Privacy and Terms, all fully responsive with smooth animations.\"]],[4,\"h2\",{\"dir\":\"auto\"},[5,\"Outcome\"]],[4,\"p\",{\"dir\":\"auto\"},[5,\"A premium enterprise SaaS foundation that helps AI teams launch faster and look credible to enterprise buyers, published free on the Framer Marketplace.\"]],[4,\"p\",{\"dir\":\"auto\"},[2,{\"href\":\"https://arconai.framer.website/\",\"openInNewTab\":false,\"smoothScroll\":false,\"relValues\":[],\"motionChild\":true,\"nodeId\":\"ETIXwiUWW\",\"scopeId\":\"contentManagement\"},[4,\"a\",null,[5,\"View live site\"]]],[5,\" · \"],[2,{\"href\":\"https://www.framer.com/marketplace/templates/arconai/\",\"openInNewTab\":false,\"smoothScroll\":false,\"relValues\":[],\"motionChild\":true,\"nodeId\":\"ETIXwiUWW\",\"scopeId\":\"contentManagement\"},[4,\"a\",null,[5,\"Framer Marketplace\"]]]]]"
+      }
+    }
+  },
+  {
+    "pointer": "0/13504/3871",
+    "data": {
+      "id": {
+        "type": "string",
+        "value": "Y4pDsy9KN"
+      },
+      "createdAt": {
+        "type": "date",
+        "value": "2026-10-06T07:38:54.991Z"
+      },
+      "updatedAt": {
+        "type": "date",
+        "value": "2026-10-11T05:58:25.470Z"
+      },
+      "previousItemId": {
+        "type": "string",
+        "value": "Eo5Q2uOOP"
+      },
+      "B_ZiumyUX": {
+        "type": "string",
+        "value": "Creston & Vale Law"
+      },
+      "yTZUyf0Wl": {
+        "type": "string",
+        "value": "Editorial Framer template for law firms and attorneys"
+      },
+      "ban_8MH1u": {
+        "type": "string",
+        "value": "Legal · Template · Framer"
+      },
+      "BwFJwfjzq": {
+        "type": "string",
+        "value": "2026"
+      },
+      "Cm8FKdxFe": {
+        "type": "string",
+        "value": "Framer Marketplace"
+      },
+      "zXdzzUen0": {
+        "type": "string",
+        "value": "Web design, Framer development"
+      },
+      "nRrO4aIen": {
+        "type": "responsiveimage",
+        "value": {
+          "src": "/reference/assets/framerusercontent.com/images/veVzvWNyJerF6mInkP9NMyux3ic.jpeg?width=1600&height=1208",
+          "srcSet": "/reference/assets/framerusercontent.com/images/veVzvWNyJerF6mInkP9NMyux3ic.jpeg?scale-down-to=512&width=1600&height=1208 512w,/reference/assets/framerusercontent.com/images/veVzvWNyJerF6mInkP9NMyux3ic.jpeg?scale-down-to=1024&width=1600&height=1208 1024w,/reference/assets/framerusercontent.com/images/veVzvWNyJerF6mInkP9NMyux3ic.jpeg?width=1600&height=1208 1600w",
+          "pixelWidth": 1600,
+          "pixelHeight": 1208
+        }
+      },
+      "HeiafU8cr": {
+        "type": "responsiveimage",
+        "value": {
+          "src": "/reference/assets/framerusercontent.com/images/IIEIC1RkM01uqR8LiHXsiK0oBJ0.png?width=1600&height=1200",
+          "srcSet": "/reference/assets/framerusercontent.com/images/IIEIC1RkM01uqR8LiHXsiK0oBJ0.png?scale-down-to=512&width=1600&height=1200 512w,/reference/assets/framerusercontent.com/images/IIEIC1RkM01uqR8LiHXsiK0oBJ0.png?scale-down-to=1024&width=1600&height=1200 1024w,/reference/assets/framerusercontent.com/images/IIEIC1RkM01uqR8LiHXsiK0oBJ0.png?width=1600&height=1200 1600w",
+          "pixelWidth": 1600,
+          "pixelHeight": 1200
+        }
+      },
+      "V7_W36oeM": {
+        "type": "responsiveimage",
+        "value": {
+          "src": "/reference/assets/framerusercontent.com/images/oS42sBmuONSVULzq1q7hFwB7O4.png?width=1600&height=1200",
+          "srcSet": "/reference/assets/framerusercontent.com/images/oS42sBmuONSVULzq1q7hFwB7O4.png?scale-down-to=512&width=1600&height=1200 512w,/reference/assets/framerusercontent.com/images/oS42sBmuONSVULzq1q7hFwB7O4.png?scale-down-to=1024&width=1600&height=1200 1024w,/reference/assets/framerusercontent.com/images/oS42sBmuONSVULzq1q7hFwB7O4.png?width=1600&height=1200 1600w",
+          "pixelWidth": 1600,
+          "pixelHeight": 1200
+        }
+      },
+      "giP_V1vHZ": {
+        "type": "string",
+        "value": "creston-vale-law"
+      },
+      "vQLsIZ4PH": {
+        "type": "number",
+        "value": 4
+      },
+      "Ovls3s13b": {
+        "type": "richtext",
+        "value": "[1,[4,\"h2\",{\"dir\":\"auto\"},[5,\"Overview\"]],[4,\"p\",{\"dir\":\"auto\"},[5,\"Creston & Vale is a fully responsive Framer template for law firms, solo attorneys, legal consultants and professional practices. Its refined, editorial design is built to convey trust and authority for firms where credibility decides everything.\"]],[4,\"h2\",{\"dir\":\"auto\"},[5,\"The challenge\"]],[4,\"p\",{\"dir\":\"auto\"},[5,\"Legal websites tend to look either dated or generic. The template needed to feel premium and calm while still moving visitors toward booking a consultation.\"]],[4,\"h2\",{\"dir\":\"auto\"},[5,\"The approach\"]],[4,\"ul\",{\"dir\":\"auto\"},[4,\"li\",{\"data-preset-tag\":\"p\"},[4,\"p\",null,[4,\"strong\",null,[5,\"Editorial direction.\"]],[5,\" Serif headlines, restrained colour and photography-led sections give the firm a confident, established voice.\"]]],[4,\"li\",{\"data-preset-tag\":\"p\"},[4,\"p\",null,[4,\"strong\",null,[5,\"Structured to convert.\"]],[5,\" A bold hero, an About section with animated stat counters, a practice-area grid, attorney profiles, testimonials and contact CTAs throughout.\"]]],[4,\"li\",{\"data-preset-tag\":\"p\"},[4,\"p\",null,[4,\"strong\",null,[5,\"Easy to own.\"]],[5,\" Every text, image, colour and font is customisable without code.\"]]]],[4,\"h2\",{\"dir\":\"auto\"},[5,\"Outcome\"]],[4,\"p\",{\"dir\":\"auto\"},[5,\"A polished foundation for any professional-services practice, with smooth scroll animations, SEO-friendly structure and a custom 404, published free on the Framer Marketplace.\"]],[4,\"p\",{\"dir\":\"auto\"},[2,{\"href\":\"https://lawfirms.framer.website/\",\"openInNewTab\":false,\"smoothScroll\":false,\"relValues\":[],\"motionChild\":true,\"nodeId\":\"ETIXwiUWW\",\"scopeId\":\"contentManagement\"},[4,\"a\",null,[5,\"View live site\"]]],[5,\" · \"],[2,{\"href\":\"https://www.framer.com/marketplace/templates/creston-vale-law/\",\"openInNewTab\":false,\"smoothScroll\":false,\"relValues\":[],\"motionChild\":true,\"nodeId\":\"ETIXwiUWW\",\"scopeId\":\"contentManagement\"},[4,\"a\",null,[5,\"Framer Marketplace\"]]]]]"
+      }
+    }
+  }
+]
