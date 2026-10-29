@@ -16,3 +16,18 @@ document.addEventListener('submit', event => {
   }
   notice.textContent = recipient ? 'Continue in your email app to review and send. If it did not open, email aj.design.mon@gmail.com directly.' : 'Email is not configured yet. Your message has not been sent.';
 }, true);
+
+// Authored Home and About pages load outside the captured Framer router.
+document.addEventListener('click', event => {
+  const link = event.target.closest?.('a[href]');
+  if (!link || link.hasAttribute('download')) return;
+  if (link.matches('[data-framer-name="About Link"]')) link.setAttribute('href', '/about');
+  const destination = new URL(link.href, location.href);
+  if (destination.origin !== location.origin) return;
+  if (destination.pathname !== '/' && !/^\/about\/?$/.test(destination.pathname)) return;
+  event.stopImmediatePropagation();
+  if (event.button === 0 && !event.metaKey && !event.ctrlKey && !event.shiftKey && !event.altKey && (!link.target || link.target === '_self')) {
+    event.preventDefault();
+    window.location.assign(destination.href);
+  }
+}, true);

@@ -8,4 +8,4 @@ await rm(resolve(root, 'dist'), { recursive: true, force: true });
 await mkdir(resolve(root, 'dist'), { recursive: true });
 await cp(resolve(root, 'public/reference'), resolve(root, 'dist/reference'), { recursive: true });
 await cp(resolve(root, 'src/reference'), resolve(root, 'dist'), { recursive: true });
-console.log('Built all Visualfolio pages and their original motion runtime into dist/.');
+console.log('Built all portfolio pages and local assets into dist/.');

@@ -26,6 +26,6 @@ for path in ASSETS.rglob('*.mjs'):
 for path in (ROOT / 'src/reference').rglob('*.html'):
     text = path.read_text()
     if '/reference/local.js' not in text:
-        text = text.replace('<head>', '<head><script src="/reference/local.js"></script>')
+        text = text.replace('<head>', '<head><script src="/reference/local.js"></script>', 1)
     path.write_text(text)
 print('Prepared local CMS reads, carousel photos, spinner fallback, and preview form behavior.')

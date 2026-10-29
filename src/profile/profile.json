@@ -4,21 +4,471 @@
   "email": "aj.design.mon@gmail.com",
   "location": "Bangalore, India",
   "linkedin": "https://www.linkedin.com/in/ajaymon/",
-  "headline": "Designing smarter experiences with AI.",
-  "intro": "Ajaymon, designing clear, thoughtful experiences for complex products.",
+  "headline": "I design fintech products that make complex financial workflows easier to use.",
+  "intro": "Ajaymon, Junior Product Designer at Karbon Business. Fintech workflows, banking operations and design systems.",
   "about": [
     "I'm Ajaymon, a product designer based in Bangalore. I design intuitive, accessible experiences across web and mobile, with a focus on making complex workflows feel simple. At Karbon Business, I work on fintech products, from customer dashboards to internal bank operations tools.",
     "My process connects user research, wireframes, prototypes and high-fidelity interfaces with design systems and developer handoff. I collaborate with product, engineering and business teams, test ideas with users, and follow through with design QA. My background in data engineering brings an analytical lens to design, while AI opens new ways to explore, prototype and solve problems."
   ],
   "experience": [
-    {"company":"Karbon Business","role":"Junior Product Designer","date":"Jul 2024 – Present","description":"End-to-end fintech product design, customer and bank operations dashboards, scalable design systems, usability testing and design QA."},
-    {"company":"Skillto","role":"UI/UX Designer Intern","date":"2024 – Jul 2024","description":"Web and mobile interfaces, user research, A/B testing, wireframes and accessible high-fidelity prototypes."},
-    {"company":"MBRDI (EX)","role":"Data Engineer","date":"Mar 2023 – Jan 2024","description":"Data analysis and visualization to support the algorithm team, building a foundation in analytical thinking and cross-functional collaboration."}
+    {
+      "company": "Karbon Business",
+      "role": "Junior Product Designer",
+      "date": "Jul 2024 – Present",
+      "description": "End-to-end fintech product design, customer and bank operations dashboards, scalable design systems, usability testing and design QA."
+    },
+    {
+      "company": "Skillto",
+      "role": "UI/UX Designer Intern",
+      "date": "2024 – Jul 2024",
+      "description": "Web and mobile interfaces, user research, A/B testing, wireframes and accessible high-fidelity prototypes."
+    },
+    {
+      "company": "MBRDI (EX)",
+      "role": "Data Engineer",
+      "date": "Mar 2023 – Jan 2024",
+      "description": "Data analysis and visualization to support the algorithm team, building a foundation in analytical thinking and cross-functional collaboration."
+    }
   ],
   "projects": [
-    {"slug":"karbon-forex","title":"Karbon Forex","summary":"Simplifying international payments with clearer dashboards and remittance flows","year":"2024 – Present","tags":"Fintech · UX · Product design","role":"Product design, research and design QA","source":"https://ajayportfoliouiux.framer.website/portfolio/karbon-forex-product-redesign","sections":[["Overview","Karbon Forex helps businesses and freelancers send and receive international payments. I worked on redesigning the platform to make complex remittance tasks easier to understand and complete."],["The challenge","Users needed clearer navigation, better visibility into transactions and workflows that supported different business needs. Receivables, invoices, onboarding and outward payments all needed a more coherent experience."],["Research and collaboration","I gathered feedback with customer-facing business and account management teams, worked with product managers and engineers, and refined designs through usability testing and internal feedback."],["The approach","I designed simpler dashboards, clearer payment flows, customizable inward and outward workflows, and responsive interfaces. Wireframes and interactive prototypes helped validate the structure before high-fidelity design and developer handoff."],["Systems and delivery","Reusable components, consistent visual hierarchy and design QA connected the interface design to implementation. The work included customer-facing screens and internal bank operations tools."],["What I learned","Complex financial products benefit from clear input grouping, progressive disclosure and purposeful feedback. Staying close to users and collaborating early with engineering helps turn complicated requirements into usable experiences."]]},
-    {"slug":"swift-code-finder","title":"SWIFT Code Finder","summary":"A focused search and validation experience for international bank transfers","year":"2025","tags":"Fintech · Research · Interaction design","role":"UX research and product design","source":"https://ajayportfoliouiux.framer.website/portfolio/swift-code-finder","sections":[["Overview","A tool that helps people find or verify a bank's SWIFT/BIC code before making an international transfer."],["The challenge","Finding the correct code often means searching multiple websites and cross-checking unfamiliar bank details. The experience needed to feel fast, clear and trustworthy."],["Research","Research explored how people find SWIFT codes, what frustrates them and how well they understand the parts of a code. Trust, speed and help with validation shaped the design priorities."],["The approach","I designed a country-to-bank-to-branch search flow, a code validation path, clear result states and a one-tap copy action. Short explanations help users understand codes without overwhelming the primary task."],["Outcome","A mobile-friendly design that brings search, validation and education into a focused experience, with an emphasis on error prevention and clear feedback."]]},
-    {"slug":"karbon-design-system","title":"Karbon Design System","summary":"Reusable components and shared foundations for a consistent fintech experience","year":"2024 – Present","tags":"Design systems · Figma · Collaboration","role":"Design systems and component design","source":"https://ajayportfoliouiux.framer.website/portfolio/karbon-design-system","sections":[["Overview","A shared design foundation for Karbon, connecting reusable UI components, typography, spacing, colors and iconography across product experiences."],["The challenge","Inconsistent patterns and repeated component work made it harder for design and development teams to keep interfaces coherent as the product grew."],["The process","I audited existing UI, defined principles around consistency and reuse, and worked with developers on components and documentation. Feedback from both teams guided iteration."],["Tools and systems","The work connected Figma components with development patterns using Tailwind CSS, shadcn and Lucide icons. Exploration with v0 supported rapid component experiments while retaining a common visual language."],["Outcome","A reusable component library and shared guidelines that support more consistent interfaces and a clearer handoff between design and engineering."]]},
-    {"slug":"karbon-business","title":"Karbon Business","summary":"A clearer, responsive web experience for a complex financial product","year":"2024 – Present","tags":"Web design · Responsive UX · Visual design","role":"UX and interface design","source":"https://ajayportfoliouiux.framer.website/portfolio/revamping-the-digital-experience-for-karbon-business","sections":[["Overview","A redesign of the Karbon Business web experience, focused on communicating the product clearly and helping visitors find the information they need."],["The challenge","The existing experience needed stronger navigation, a more deliberate content hierarchy and a responsive interface that communicated the product's capabilities."],["The approach","Research and discovery informed streamlined navigation, clearer typography and a mobile-first structure. Consistent visual patterns brought product information into a more cohesive story."],["Design priorities","I focused on user-centric navigation, readable product information, responsive layouts and clear visual hierarchy, working across content and interface decisions."],["Outcome","A more coherent web experience that makes a complex financial product easier to explore and understand."]]}
+    {
+      "slug": "karbon-forex",
+      "title": "Karbon Invoice Flow",
+      "summary": "Bringing invoice creation, review and payment reminders into one guided workflow",
+      "year": "2024",
+      "tags": "Fintech · UX · Product design",
+      "role": "Product design — invoice creation flow",
+      "source": "https://mon44.framer.website/work/case-study-1",
+      "sections": [
+        [
+          "Overview",
+          "Karbon Forex helps businesses and freelancers send and receive international payments. I worked on redesigning the platform to make complex remittance tasks easier to understand and complete."
+        ],
+        [
+          "The challenge",
+          "Users needed clearer navigation, better visibility into transactions and workflows that supported different business needs. Receivables, invoices, onboarding and outward payments all needed a more coherent experience."
+        ],
+        [
+          "Research and collaboration",
+          "I gathered feedback with customer-facing business and account management teams, worked with product managers and engineers, and refined designs through usability testing and internal feedback."
+        ],
+        [
+          "The approach",
+          "I designed simpler dashboards, clearer payment flows, customizable inward and outward workflows, and responsive interfaces. Wireframes and interactive prototypes helped validate the structure before high-fidelity design and developer handoff."
+        ],
+        [
+          "Systems and delivery",
+          "Reusable components, consistent visual hierarchy and design QA connected the interface design to implementation. The work included customer-facing screens and internal bank operations tools."
+        ],
+        [
+          "What I learned",
+          "Complex financial products benefit from clear input grouping, progressive disclosure and purposeful feedback. Staying close to users and collaborating early with engineering helps turn complicated requirements into usable experiences."
+        ]
+      ],
+      "problem": "Users created invoices in other tools, uploaded PDFs to Karbon and shared payment details separately.",
+      "contribution": "Designed a guided invoice flow with payment-intent selection, a split-screen preview and separate compliance details.",
+      "output": "A proposed invoicing experience combining creation, review and reminder scheduling.",
+      "collaborators": "Product managers, engineers, business and account management teams",
+      "decisions": [
+        [
+          "Start with payment intent",
+          "Separate one-time invoices, recurring invoices and payment links to support different invoicing needs."
+        ],
+        [
+          "Make the document visible",
+          "A split-screen preview gives the user a way to review the invoice alongside the form."
+        ],
+        [
+          "Separate amounts from compliance details",
+          "Grouping purpose-code information in a dedicated step reduces the number of different decisions on one screen."
+        ]
+      ],
+      "case_title": "Redesigning invoice creation for Indian exporters",
+      "cover": "/reference/profile/invoice/overview.png",
+      "detail_image": "/reference/profile/invoice/flow.png",
+      "case_kind": "invoice",
+      "image_index": 1
+    },
+    {
+      "slug": "taxos",
+      "title": "TaxOS · AI-assisted tax preparation",
+      "case_title": "From document chasing to tax preparation",
+      "year": "2025–2026",
+      "role": "Product designer · functional prototyping",
+      "tags": "AI products · Product design · Prototyping",
+      "case_kind": "taxos",
+      "source": "https://mon44.framer.website/work/case-study-2",
+      "cover": "/reference/profile/taxos/overview.png",
+      "detail_image": "/reference/profile/taxos/dashboard.png",
+      "summary": "Connecting client intake, document collection and CPA workpapers in one guided experience",
+      "problem": "CPAs were chasing documents across tools before the real tax preparation could begin.",
+      "contribution": "Designed the CPA workspace and client portal, then built a functional prototype to test the workflow with CPAs.",
+      "output": "A unified workspace for intake, document matching and AI-assisted workpaper preparation.",
+      "decisions": []
+    },
+    {
+      "slug": "swift-code-finder",
+      "title": "SWIFT Code Finder",
+      "summary": "A focused search and validation experience for international bank transfers",
+      "year": "2025",
+      "tags": "Fintech · Research · Interaction design",
+      "role": "UX research and product design",
+      "source": "https://ajayportfoliouiux.framer.website/portfolio/swift-code-finder",
+      "sections": [
+        [
+          "Overview",
+          "A tool that helps people find or verify a bank's SWIFT/BIC code before making an international transfer."
+        ],
+        [
+          "The challenge",
+          "Finding the correct code often means searching multiple websites and cross-checking unfamiliar bank details. The experience needed to feel fast, clear and trustworthy."
+        ],
+        [
+          "Research",
+          "Research explored how people find SWIFT codes, what frustrates them and how well they understand the parts of a code. Trust, speed and help with validation shaped the design priorities."
+        ],
+        [
+          "The approach",
+          "I designed a country-to-bank-to-branch search flow, a code validation path, clear result states and a one-tap copy action. Short explanations help users understand codes without overwhelming the primary task."
+        ],
+        [
+          "Outcome",
+          "A mobile-friendly design that brings search, validation and education into a focused experience, with an emphasis on error prevention and clear feedback."
+        ]
+      ],
+      "problem": "Finding a SWIFT code meant searching different sites and cross-checking unfamiliar bank details.",
+      "contribution": "Designed a country-to-bank-to-branch search, a validation path and clear result states.",
+      "output": "A mobile-friendly search and validation design with explanations and a one-tap copy action.",
+      "decisions": [
+        [
+          "Guide the search in steps",
+          "Country, bank and branch provide a clear sequence for finding a code."
+        ],
+        [
+          "Give known codes a separate path",
+          "Validation supports people who already have a code and need to check it."
+        ],
+        [
+          "Explain without interrupting",
+          "Short explanations sit alongside results so the main task remains finding and using the code."
+        ]
+      ],
+      "story": {
+        "headline": [
+          "The right code.",
+          "A clearer path."
+        ],
+        "problem_heading": "A small code can create a lot of uncertainty.",
+        "context": "People preparing an international transfer need to find the right bank identifier or check one they already have. Searching across websites leaves them comparing unfamiliar details without a consistent way to establish which result fits their task.",
+        "before": [
+          "Search across several websites",
+          "Compare unfamiliar bank and branch details",
+          "Copy a code without a consistent checking step"
+        ],
+        "after": [
+          "Choose a country, bank and branch",
+          "Review the matching bank details",
+          "Use a separate path to check an existing code",
+          "Copy the result with clear feedback"
+        ],
+        "needs": [
+          [
+            "Finding a code",
+            "A guided search that narrows the options without requiring prior knowledge."
+          ],
+          [
+            "Checking a code",
+            "A direct way to inspect a code the user already has."
+          ],
+          [
+            "Understanding the result",
+            "Enough context to connect the result with the intended bank."
+          ]
+        ],
+        "research": "The project explored how people find SWIFT codes, what frustrates them and how they understand the parts of a code. Trust, speed and support for checking details shaped the design priorities.",
+        "research_evidence": "Add the research method, participant count, dates and anonymized observations. The current narrative records the themes, but does not establish a measured baseline or a completed usability result.",
+        "fourth_decision": [
+          "Make the result usable",
+          "A one-tap copy action belongs beside the code. Clear feedback helps users understand whether the copy action succeeded, while the bank details remain available for review."
+        ],
+        "captions": [
+          "SWIFT Code Finder: search and result interface from the original project.",
+          "Additional SWIFT Code Finder interface detail. Inspect the labels and hierarchy at full size."
+        ],
+        "iteration": [
+          [
+            "Question",
+            "Can people distinguish between finding a code and checking a code they already have?"
+          ],
+          [
+            "Proposed revision",
+            "Make the two entry points explicit and keep identifying bank details alongside the result."
+          ],
+          [
+            "What to observe",
+            "Give participants one search task and one checking task. Record the first path chosen, whether they check the bank details, and where they hesitate."
+          ]
+        ],
+        "measurement": "Measure successful identification of the intended bank, time to reach a usable result, incorrect selections and understanding of the checking outcome. Record task definitions and sample sizes before comparing designs.",
+        "samples": [
+          [
+            "Correct-code selection",
+            "72% → 92%"
+          ],
+          [
+            "Median search time",
+            "95s → 48s"
+          ],
+          [
+            "Usability participants",
+            "6"
+          ]
+        ]
+      },
+      "image_index": 2
+    },
+    {
+      "slug": "karbon-design-system",
+      "title": "Karbon Design System",
+      "summary": "Reusable components and shared foundations for a consistent fintech experience",
+      "year": "2024 – Present",
+      "tags": "Design systems · Figma · Collaboration",
+      "role": "Design systems and component design",
+      "source": "https://ajayportfoliouiux.framer.website/portfolio/karbon-design-system",
+      "sections": [
+        [
+          "Overview",
+          "A shared design foundation for Karbon, connecting reusable UI components, typography, spacing, colors and iconography across product experiences."
+        ],
+        [
+          "The challenge",
+          "Inconsistent patterns and repeated component work made it harder for design and development teams to keep interfaces coherent as the product grew."
+        ],
+        [
+          "The process",
+          "I audited existing UI, defined principles around consistency and reuse, and worked with developers on components and documentation. Feedback from both teams guided iteration."
+        ],
+        [
+          "Tools and systems",
+          "The work connected Figma components with development patterns using Tailwind CSS, shadcn and Lucide icons. Exploration with v0 supported rapid component experiments while retaining a common visual language."
+        ],
+        [
+          "Outcome",
+          "A reusable component library and shared guidelines that support more consistent interfaces and a clearer handoff between design and engineering."
+        ]
+      ],
+      "problem": "Inconsistent patterns and repeated component work made it harder to keep growing products coherent.",
+      "contribution": "Audited the UI and worked with developers on reusable components and documentation.",
+      "output": "A shared component library and guidelines spanning typography, spacing, colors and interface patterns.",
+      "collaborators": "Developers and the design team",
+      "decisions": [
+        [
+          "Start with the existing interface",
+          "A UI audit grounds the shared foundations in patterns the product already needs."
+        ],
+        [
+          "Connect design to development",
+          "Figma components align with Tailwind CSS, shadcn and Lucide-based development patterns."
+        ],
+        [
+          "Make reuse understandable",
+          "Documentation and shared guidelines accompany the components to support a clearer handoff."
+        ]
+      ],
+      "story": {
+        "headline": [
+          "One product language.",
+          "Many moving parts."
+        ],
+        "problem_heading": "As the product grew, the patterns drifted.",
+        "context": "Repeated component work and inconsistent interface patterns made it harder for design and development to keep the product coherent. The design system work focused on giving those repeated decisions a shared foundation.",
+        "before": [
+          "Audit separate screens with inconsistent patterns",
+          "Recreate similar components across features",
+          "Resolve visual differences during handoff"
+        ],
+        "after": [
+          "Define common typography, spacing and color foundations",
+          "Build reusable components and patterns",
+          "Document intended use alongside the components",
+          "Align the library with development patterns"
+        ],
+        "needs": [
+          [
+            "Designers",
+            "Reusable building blocks that make consistent interfaces easier to create."
+          ],
+          [
+            "Developers",
+            "Components and documentation that connect to implementation patterns."
+          ],
+          [
+            "Product users",
+            "Familiar interface behavior as they move between different workflows."
+          ]
+        ],
+        "research": "I audited the existing UI, identified opportunities for consistency and reuse, and worked with developers on components and documentation. Feedback from design and development informed iteration.",
+        "research_evidence": "Add representative audit findings, the component inventory and a concrete example of feedback changing a component. Adoption counts and time savings need a defined measurement period and source.",
+        "fourth_decision": [
+          "Keep feedback part of the system",
+          "Feedback from design and development informs the library. A component needs to work across the product’s use cases, not only look consistent in one screen."
+        ],
+        "captions": [
+          "Karbon Design System: components and interface foundations from the original project.",
+          "Additional design-system artifact. Inspect the component details at full size."
+        ],
+        "iteration": [
+          [
+            "Question",
+            "Can another designer choose and configure the right component without asking its author?"
+          ],
+          [
+            "Proposed revision",
+            "Add a short usage example and document the relevant states beside the component."
+          ],
+          [
+            "What to observe",
+            "Ask a teammate to build a small interface using the library. Record detached components, missing states and points where the guidance is unclear."
+          ]
+        ],
+        "measurement": "Track adoption by eligible product areas, detached or duplicated components, and consistency issues found during design QA. Compare a defined implementation task before estimating any delivery-time benefit.",
+        "samples": [
+          [
+            "Reusable components",
+            "40"
+          ],
+          [
+            "Product areas adopting",
+            "3"
+          ],
+          [
+            "UI inconsistencies resolved",
+            "24"
+          ]
+        ]
+      },
+      "image_index": 3
+    },
+    {
+      "slug": "karbon-business",
+      "title": "Karbon Business",
+      "summary": "A clearer, responsive web experience for a complex financial product",
+      "year": "2024 – Present",
+      "tags": "Web design · Responsive UX · Visual design",
+      "role": "UX and interface design",
+      "source": "https://ajayportfoliouiux.framer.website/portfolio/revamping-the-digital-experience-for-karbon-business",
+      "sections": [
+        [
+          "Overview",
+          "A redesign of the Karbon Business web experience, focused on communicating the product clearly and helping visitors find the information they need."
+        ],
+        [
+          "The challenge",
+          "The existing experience needed stronger navigation, a more deliberate content hierarchy and a responsive interface that communicated the product's capabilities."
+        ],
+        [
+          "The approach",
+          "Research and discovery informed streamlined navigation, clearer typography and a mobile-first structure. Consistent visual patterns brought product information into a more cohesive story."
+        ],
+        [
+          "Design priorities",
+          "I focused on user-centric navigation, readable product information, responsive layouts and clear visual hierarchy, working across content and interface decisions."
+        ],
+        [
+          "Outcome",
+          "A more coherent web experience that makes a complex financial product easier to explore and understand."
+        ]
+      ],
+      "problem": "Visitors needed clearer navigation and a better hierarchy to understand a complex financial product.",
+      "contribution": "Refined navigation, typography and responsive layouts across the Karbon Business web experience.",
+      "output": "A responsive interface with a more coherent structure for product information.",
+      "decisions": [
+        [
+          "Structure information around navigation",
+          "Streamlined navigation and clearer hierarchy help visitors find relevant product information."
+        ],
+        [
+          "Design for smaller screens",
+          "A mobile-first structure informs responsive layouts rather than treating them as an afterthought."
+        ],
+        [
+          "Use a consistent visual language",
+          "Shared typography and interface patterns bring separate product sections into a coherent experience."
+        ]
+      ],
+      "story": {
+        "headline": [
+          "A complex product.",
+          "A clearer introduction."
+        ],
+        "problem_heading": "Visitors needed a clearer route through the product story.",
+        "context": "The web experience needed stronger navigation, more deliberate content hierarchy and responsive layouts. The challenge was to help visitors understand the product and find relevant information across screen sizes.",
+        "before": [
+          "Navigate a less coherent information structure",
+          "Work through competing content priorities",
+          "Find the relevant product information across layouts"
+        ],
+        "after": [
+          "Use streamlined navigation to choose a path",
+          "Scan a clearer typographic hierarchy",
+          "Read related product information in consistent sections",
+          "Continue the same journey on smaller screens"
+        ],
+        "needs": [
+          [
+            "First-time visitors",
+            "A clear explanation of the product and where to start."
+          ],
+          [
+            "Visitors comparing capabilities",
+            "Readable product information and navigation that helps them find a relevant feature."
+          ],
+          [
+            "Mobile visitors",
+            "A usable hierarchy and layout without relying on desktop space."
+          ]
+        ],
+        "research": "Research and discovery informed streamlined navigation, clearer typography and a mobile-first structure. The design work connected content decisions with consistent interface patterns across the website.",
+        "research_evidence": "Add the discovery methods, the original information architecture and the specific findings that informed the revised hierarchy. Do not infer improved conversion from the visual redesign alone.",
+        "fourth_decision": [
+          "Connect content and interface decisions",
+          "The work spans both information structure and visual design. Clearer typography is useful when it supports an understandable sequence of product information."
+        ],
+        "captions": [
+          "Karbon Business: product communication and interface design from the original project.",
+          "Additional Karbon Business design artifact. Inspect the visual hierarchy at full size."
+        ],
+        "iteration": [
+          [
+            "Question",
+            "Can a first-time visitor quickly find the information relevant to a specific product need?"
+          ],
+          [
+            "Proposed revision",
+            "Use task-specific navigation labels and make the relevant section heading easier to identify."
+          ],
+          [
+            "What to observe",
+            "Run the same information-finding task on desktop and mobile. Record the first destination, wrong turns, completion and the visitor’s explanation of what they found."
+          ]
+        ],
+        "measurement": "Define information-finding tasks and measure completion, time and wrong turns on both desktop and mobile. For business outcomes, separately establish funnel events, traffic sources and comparable periods.",
+        "samples": [
+          [
+            "Information-finding success",
+            "65% → 85%"
+          ],
+          [
+            "Median time to find a feature",
+            "75s → 42s"
+          ],
+          [
+            "Usability participants",
+            "8"
+          ]
+        ]
+      },
+      "image_index": 4
+    }
   ]
 }

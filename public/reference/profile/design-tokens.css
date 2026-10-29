@@ -1,0 +1,4 @@
+@font-face{font-family:Geist;src:url('/reference/profile/fonts/geist.woff2') format('woff2');font-style:normal;font-weight:100 900;font-display:swap}
+@font-face{font-family:'Geist Mono';src:url('/reference/profile/fonts/geist-mono.woff2') format('woff2');font-style:normal;font-weight:100 900;font-display:swap}
+@font-face{font-family:Caveat;src:url('/reference/profile/fonts/caveat.woff2') format('woff2');font-style:normal;font-weight:400 700;font-display:swap}
+:root{--paper:#19191b;--sheet:#fdfcfd;--ink:#d0cdd7;--muted:#aaa7b1;--faint:#85818d;--line:#ffffff12;--wash:#242426;--yellow:#ffba18;--sans:Geist,Arial,sans-serif;--mono:'Geist Mono',monospace;--hand:Caveat,cursive;--content:1160px;--space-1:8px;--space-2:16px;--space-3:24px;--space-4:32px;--space-5:40px;--space-6:64px;--space-7:80px;--radius:16px;--paper-shadow:2px 3px 5px #0003,8px 20px 30px #0003;--ease:cubic-bezier(.2,.7,.2,1);--fast:180ms;--slow:600ms}

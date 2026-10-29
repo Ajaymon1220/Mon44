@@ -58,7 +58,7 @@ for old in ['cptjyfr3e6APqnHgO9OADsePk.jpg','B53jgAnIs81Rz2tXlHIkWuPVHcM.jpg','e
 IM['/reference/assets/framerusercontent.com/images/cZbdTJjygQ8Uj4pEgv5D4Z0t5Y.jpg']='/reference/profile/shubhasheesh.svg'
 richtexts={}
 project_by_old={}
-for i,(record,project) in enumerate(zip(records,PROFILE['projects'])):
+for i,(record,project) in enumerate(zip(records, sorted((p for p in PROFILE['projects'] if 'sections' in p), key=lambda p: p['image_index']))):
  d=record['data']; oldslug=d['giP_V1vHZ']['value'];project_by_old[oldslug]=project
  for field,new in [('B_ZiumyUX',project['title']),('yTZUyf0Wl',project['summary']),('giP_V1vHZ',project['slug'])]:M[d[field]['value']]=new
  for field,new in [('Cm8FKdxFe','Karbon Business'),('ban_8MH1u',project['tags']),('zXdzzUen0',project['role'])]:
@@ -72,9 +72,9 @@ for i,(record,project) in enumerate(zip(records,PROFILE['projects'])):
   IM[d[field]['value']['src'].split('?')[0]]=f'/reference/profile/project-{i+1}-{j}.png'
 M.update(IM)
 # Slug lookups use the retained record IDs, so new public URLs do not depend on old sorted indexes.
-ids={p['slug']:r['data']['id']['value'] for r,p in zip(records,PROFILE['projects'])}
+ids={p['slug']:r['data']['id']['value'] for r,p in zip(records, sorted((p for p in PROFILE['projects'] if 'sections' in p), key=lambda p: p['image_index']))}
 reverse={v:k for k,v in ids.items()}
-record_updates={r['data']['id']['value']:{'BwFJwfjzq':p['year'],'Cm8FKdxFe':'Karbon Business','zXdzzUen0':p['role'],'ban_8MH1u':p['tags']} for r,p in zip(records,PROFILE['projects'])}
+record_updates={r['data']['id']['value']:{'BwFJwfjzq':p['year'],'Cm8FKdxFe':'Karbon Business','zXdzzUen0':p['role'],'ban_8MH1u':p['tags']} for r,p in zip(records, sorted((p for p in PROFILE['projects'] if 'sections' in p), key=lambda p: p['image_index']))}
 allmap={**M,**richtexts}
 # Apply a single replacement pass to avoid cascades between project/client names.
 pattern=re.compile('|'.join(re.escape(k) for k in sorted(M,key=len,reverse=True)))
@@ -185,3 +185,12 @@ for oldslug in project_by_old:
 for name,initials in [('deepak','DM'),('shubhasheesh','SB')]:
  (ROOT/f'public/reference/profile/{name}.svg').write_text(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80"><rect width="80" height="80" rx="40" fill="#e6e0ff"/><text x="40" y="48" text-anchor="middle" font-family="sans-serif" font-size="24" fill="#49416d">{initials}</text></svg>')
 print('Personalized all pages, runtime text, project routes, CMS content and images for Ajaymon.')
+
+# Keep the standalone biography and navigation in sync with profile updates.
+import runpy
+runpy.run_path(str(ROOT / 'scripts/about-page.py'))
+
+# Preserve the authored homepage when refreshing the captured project pages.
+runpy.run_path(str(ROOT / 'scripts/home-page.py'))
+
+runpy.run_path(str(ROOT / 'scripts/portfolio-pages.py'))
